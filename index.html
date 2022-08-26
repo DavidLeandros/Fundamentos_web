@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -17,29 +18,56 @@
         </li>
     </ul>
 
-    <h1>Sobre</h1>
+    <h1 class="center">Sobre</h1>
+    <div class="container">
+        <div>
+            <img class="br-50 wr-400 p-30" src="assets/img/fotobabu.jpg" alt="Foto do criador desse conteudo">
+        </div>
 
-    <p>
-        Alexandre da Silva Santana, mais conhecido como Babu Santana 
-        (Rio de Janeiro, 10 de dezembro de 1979) é um ator e cantor brasileiro. 
-        Vindo do grupo de teatro "Nós do Morro", fez diversos filmes e novelas, 
-        tendo ganhado notoriedade após interpretar Tim Maia na cinebiografia do cantor. 
-        Ganhou duas vezes o Grande Otelo, maior prêmio do cinema brasileiro.
-    </p>
+         <div class="p-30">
+            <p class="justify">
+                 Alexandre da Silva Santana, mais conhecido como Babu Santana 
+                 (Rio de Janeiro, 10 de dezembro de 1979) é um ator e cantor brasileiro. 
+                 Vindo do grupo de teatro "Nós do Morro", fez diversos filmes e novelas, 
+                tendo ganhado notoriedade após interpretar Tim Maia na cinebiografia do cantor. 
+                Ganhou duas vezes o Grande Otelo, maior prêmio do cinema brasileiro.
+            </p>
+        </div>
+    </div>
 
-    <img src="assets/img/fotobabu.jpg" alt="Foto do criador desse conteudo">
+    <h2 class="center">Meu video favorito</h2>
 
-    <h2>Meu video favorito</h2>
+    <div class="container mb-50">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/qXZk9WFFR0I" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+    </div>
 
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/qXZk9WFFR0I" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-    ></iframe>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="tm-social" src="assets/img/facebook.png" alt="logo do facebook">
+            </a>
 
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social" src="assets/img/instagram.png" alt="logo do instagram">
+            </a>
+            
+            <a href="https://twitter.com/" target="_blank">
+                <img class="tm-social" src="assets/img/twitter.png" alt="logo do twitter">
+            </a>
+        </div>
+        <p class="center">
+            Todos os direitos reservados &copy;
+        </p>
+    </footer>
+    
 </body>
 </html>
